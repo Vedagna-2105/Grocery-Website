@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Heritage Toned Milk – Omkar Groceries</title>
+  <link rel="stylesheet" href="grocery.css" />
+  <style>
+    .product-details {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 40px 20px;
+      background: white;
+    }
+
+    .product-image {
+      flex: 1;
+      min-width: 300px;
+      text-align: center;
+    }
+
+    .product-image img {
+      width: 250px;
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .product-info {
+      flex: 2;
+      padding-left: 40px;
+      min-width: 300px;
+    }
+
+    .product-info h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .product-info .brand {
+      color: #555;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .product-info select {
+      padding: 6px 12px;
+      border-radius: 6px;
+      margin-bottom: 20px;
+    }
+
+    .price {
+      font-size: 20px;
+      margin: 10px 0;
+    }
+
+    .add-btn {
+      background: green;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .highlights, .details, .recipes {
+      padding: 20px;
+    }
+
+    .recipes img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .recipes {
+      display: flex;
+      overflow-x: auto;
+      gap: 16px;
+    }
+
+    .recipe-title {
+      font-size: 14px;
+      margin-top: 6px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+      <section>
+    <header class="header">
+        <div class="logo">Omkar<span> Provisions</span></div>
+        <div class="delivery-info">
+            <strong>Deliver in 20 minutes</strong>
+            <p>Upadhyaya nagar, 15th cross, Tirupati</p>
+        </div>
+        <input type="text" class="search-bar" placeholder='search "milk"'>
+        <div class="auth">
+            <button id="loginBtn">Login</button>
+            <button class="cart-btn">🛒 My Cart</button>
+        </div>
+    </header><br>
+    </section>
+
+  <section class="product-details">
+    <div class="product-image">
+      <img src="heritage toned.png" alt="Heritage Toned Milk" />
+    </div>
+
+    <div class="product-info">
+      <h1>Heritage Daily Health Toned Milk</h1>
+      <div class="brand">by <strong>Heritage</strong></div>
+      <label for="size">Select Unit:</label>
+      <select id="size">
+        <option value="500ml">500 ml - ₹28</option>
+        <option value="1l">1 l - ₹54</option>
+      </select>
+      <div class="price">₹28</div>
+      <button class="add-btn">Add to cart</button>
+    </div>
+  </section>
+
+  <section class="highlights">
+    <h3>Highlights</h3>
+    <ul>
+      <li>Type: Toned Milk</li>
+    </ul>
+  </section>
+
+  <section class="details">
+    <h3>Product Details</h3>
+    <p>Heritage Toned Milk is a nutritious choice ideal for everyday consumption. It has reduced fat but retains all essential nutrients. Enjoy it as a drink or in recipes.</p>
+  </section>
+
+  <section class="recipes">
+    <div>
+      <img src="angoori rasmalai.png" alt="Apricot Kheer" />
+      <div class="recipe-title">Angoori rasmalai</div>
+    </div>
+    <div>
+      <img src="bread pudding.png" alt="Bread Pudding" />
+      <div class="recipe-title">Bread Pudding</div>
+    </div>
+    <div>
+      <img src="barley kheer.png" alt="Barley Kheer" />
+      <div class="recipe-title">Barley Kheer</div>
+    </div>
+    <div>
+      <img src="cherry kulfi.png" alt="Cherry Kulfi" />
+      <div class="recipe-title">Cherry Kulfi</div>
+    </div>
+  </section>
+
+  <section>
+    
+<section>
+    <footer class="footer">
+  <div class="footer-top">
+    <div class="footer-column">
+      <h4>Useful Links</h4>
+      <ul>
+        <li>Blog</li>
+        <li>Privacy</li>
+        <li>Terms</li>
+        <li>FAQs</li>
+        <li>Security</li>
+        <li>Contact</li>
+        <li>Deliver</li>
+        <li>Resources</li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Categories <span class="see-all">see all</span></h4>
+      <ul>
+        <li>Vegetables & Fruits</li>
+        <li>Cold Drinks & Juices</li>
+        <li>Bakery & Biscuits</li>
+        <li>Dry Fruits, Masala & Oil</li>
+        
+        <li>Ice Creams & Frozen Desserts</li>
+        <li>Beauty & Cosmetics</li>
+        <li>Stationery Needs</li>
+        <li>Instant & Frozen Food</li>
+        <li>Sweet Tooth</li>
+        <li>Sauces & Spreads</li>
+        <li>Organic & Premium</li>
+        <li>Cleaning Essentials</li>
+        <li>Personal Care</li>
+        <li>Fashion & Accessories</li>
+        <li>Books</li>
+        <li>Munchies</li>
+        <li>Tea, Coffee & Health Drinks</li>
+        <li>Atta, Rice & Dal</li>
+        <li>Baby Care</li>
+        <li>Home & Office</li>
+       
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-middle">
+    <p>© Omkar Commerce Private Limited, 2020–2025</p>
+    <div class="app-buttons">
+      <img src="app store.png" alt="App Store" />
+      <img src="google play.png" alt="Google Play" />
+    </div>
+    <div class="social-icons">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin"></i>
+      <i class="fab fa-threads"></i>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>
+  Omkar Provisions, a unit of Omkar Commerce Private Limited, functions as an independent grocery retailer and delivery service. We do not hold any legal, financial, or operational ties with other commercial grocery platforms or delivery companies. Any references to third-party products or brands are used for illustrative purposes only.
+</p>
+
+  </div>
+</footer>
+  </section>
+</body>
+</html>

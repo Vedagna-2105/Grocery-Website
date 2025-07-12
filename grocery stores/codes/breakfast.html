@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Breakfast & Instant Food – Omkar Groceries</title>
+  <link rel="stylesheet" href="grocery.css">
+  <style>
+    .product-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+      justify-content: flex-start;
+    }
+    .product-card {
+      width: 160px;
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .product-card img {
+      width: 100%;
+      height: 120px;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+    .product-card .title {
+      font-size: 14px;
+      font-weight: 500;
+      margin-top: 8px;
+    }
+    .product-card .subtitle {
+      font-size: 13px;
+      color: #555;
+    }
+    .product-card .price {
+      font-size: 14px;
+      font-weight: bold;
+      margin: 5px 0;
+    }
+    .product-card .price del {
+      font-weight: normal;
+      color: gray;
+      margin-left: 6px;
+      font-size: 13px;
+    }
+    .add-btn {
+      background: white;
+      border: 2px solid green;
+      color: green;
+      padding: 4px 12px;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+    <section>
+    <header class="header">
+        <div class="logo">Omkar<span> Provisions</span></div>
+        <div class="delivery-info">
+            <strong>Deliver in 20 minutes</strong>
+            <p>Upadhyaya nagar, 15th cross, Tirupati</p>
+        </div>
+        <input type="text" class="search-bar" placeholder='search "milk"'>
+        <div class="auth">
+            <button id="loginBtn">Login</button>
+            <button class="cart-btn">🛒 My Cart</button>
+        </div>
+    </header><br>
+    </section>
+
+<section>
+  <div class="product-grid">
+
+    <div class="product-card">
+      <img src="chocosmoonstars.png" alt="">
+      <p class="title">Kellogg's Multigrain Chocos Moons & Stars</p>
+      <p class="subtitle">1.2 kg</p>
+      <p class="price">₹411 <del>₹750</del></p>
+      <button class="add-btn">ADD</button>
+    </div>
+
+    <div class="product-card">
+      <img src="chocofills.png" alt="">
+      <p class="title">Kellogg's Double Chocolaty Fills</p>
+      <p class="subtitle">250 g</p>
+      <p class="price">₹193 <del>₹205</del></p>
+      <button class="add-btn">ADD</button>
+    </div>
+
+    <div class="product-card">
+      <img src="cornflakesbox.png" alt="">
+      <p class="title">Kellogg's Corn Flakes with Immuno Nutrients</p>
+      <p class="subtitle">250 g</p>
+      <p class="price">₹125</p>
+      <button class="add-btn">ADD</button>
+    </div>
+
+     <div class="product-card">
+      <img src="honeycornflaes.png" alt="">
+      <p class="title">Kellogg's Real Almond Honey Corn Flakes</p>
+      <p class="subtitle">168 g</p>
+      <p class="price">₹94</p>
+      <button class="add-btn">ADD</button>
+    </div>
+
+    <div class="product-card">
+      <img src="maggi1pack.png" alt="">
+      <p class="title">Maggi Single Pack</p>
+      <p class="subtitle">50 g</p>
+      <p class="price">₹15 <del>₹14</del></p>
+      <button class="add-btn">ADD</button>
+    </div>
+
+    <div class="product-card">
+      <img src="maggi4paxk.png" alt="">
+      <p class="title">Maggi 4 Pack</p>
+      <p class="subtitle">200 g</p>
+      <p class="price">₹60</p>
+      <button class="add-btn">ADD</button>
+    </div>
+
+    <div class="product-card">
+      <img src="maggi4paxk.png" alt="">
+      <p class="title">Maggi 6 Pack</p>
+      <p class="subtitle">300 g</p>
+      <p class="price">₹90</p>
+      <button class="add-btn">ADD</button>
+    </div>
+
+    <div class="product-card">
+      <img src="maggifamilypack.png" alt="">
+      <p class="title">Maggi Family PAck</p>
+      <p class="subtitle">560 g</p>
+      <p class="price">₹120</p>
+      <button class="add-btn">ADD</button>
+    </div>
+
+    <div class="product-card">
+      <img src="maggi atta.png" alt="">
+      <p class="title">Maggi Atta Noodles</p>
+      <p class="subtitle">48 g</p>
+      <p class="price">₹27</p>
+      <button class="add-btn">ADD</button>
+    </div>
+
+    <div class="product-card">
+      <img src="yippee1.png" alt="">
+      <p class="title">Yippe Noodles</p>
+      <p class="subtitle">50 g</p>
+      <p class="price">₹15</p>
+      <button class="add-btn">ADD</button>
+    </div>
+
+    <div class="product-card">
+      <img src="yippee4pack.png" alt="">
+      <p class="title">Yippe 4 Pack</p>
+      <p class="subtitle">200 g</p>
+      <p class="price">₹60</p>
+      <button class="add-btn">ADD</button>
+    </div>
+
+    <div class="product-card">
+      <img src="yippee6pack.png" alt="">
+      <p class="title">Yippe 6 Pack</p>
+      <p class="subtitle">300 g</p>
+      <p class="price">₹90</p>
+      <button class="add-btn">ADD</button>
+    </div>
+
+    <div class="product-card">
+      <img src="topramen.png" alt="">
+      <p class="title">Top Ramen (
+        8 Pack)
+      </p>
+      <p class="subtitle">450 g</p>
+      <p class="price">₹125</p>
+      <button class="add-btn">ADD</button>
+    </div>
+
+  </div>
+</section>
+<section>
+    
+<section>
+    <footer class="footer">
+  <div class="footer-top">
+    <div class="footer-column">
+      <h4>Useful Links</h4>
+      <ul>
+        <li>Blog</li>
+        <li>Privacy</li>
+        <li>Terms</li>
+        <li>FAQs</li>
+        <li>Security</li>
+        <li>Contact</li>
+        <li>Deliver</li>
+        <li>Resources</li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Categories <span class="see-all">see all</span></h4>
+      <ul>
+        <li>Vegetables & Fruits</li>
+        <li>Cold Drinks & Juices</li>
+        <li>Bakery & Biscuits</li>
+        <li>Dry Fruits, Masala & Oil</li>
+        
+        <li>Ice Creams & Frozen Desserts</li>
+        <li>Beauty & Cosmetics</li>
+        <li>Stationery Needs</li>
+        <li>Instant & Frozen Food</li>
+        <li>Sweet Tooth</li>
+        <li>Sauces & Spreads</li>
+        <li>Organic & Premium</li>
+        <li>Cleaning Essentials</li>
+        <li>Personal Care</li>
+        <li>Fashion & Accessories</li>
+        <li>Books</li>
+        <li>Munchies</li>
+        <li>Tea, Coffee & Health Drinks</li>
+        <li>Atta, Rice & Dal</li>
+        <li>Baby Care</li>
+        <li>Home & Office</li>
+        
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-middle">
+    <p>© Omkar Commerce Private Limited, 2020–2025</p>
+    <div class="app-buttons">
+      <img src="app store.png" alt="App Store" />
+      <img src="google play.png" alt="Google Play" />
+    </div>
+    <div class="social-icons">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin"></i>
+      <i class="fab fa-threads"></i>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>
+  Omkar Provisions, a unit of Omkar Commerce Private Limited, functions as an independent grocery retailer and delivery service. We do not hold any legal, financial, or operational ties with other commercial grocery platforms or delivery companies. Any references to third-party products or brands are used for illustrative purposes only.
+</p>
+
+  </div>
+</footer>
+</section>
+</body>
+</html>
